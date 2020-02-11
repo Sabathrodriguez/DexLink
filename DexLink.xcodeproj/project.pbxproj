@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105B8A0A22F71A0C008EEC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B8A0922F71A0C008EEC53 /* AppDelegate.swift */; };
+		105B8A0C22F71A0C008EEC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B8A0B22F71A0C008EEC53 /* ViewController.swift */; };
+		105B8A0F22F71A0C008EEC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B8A0D22F71A0C008EEC53 /* Main.storyboard */; };
+		105B8A1122F71A0F008EEC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B8A1022F71A0F008EEC53 /* Assets.xcassets */; };
+		105B8A1422F71A0F008EEC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B8A1222F71A0F008EEC53 /* LaunchScreen.storyboard */; };
+		10601A5522FF075500AC7BC0 /* CustomerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10601A5422FF075500AC7BC0 /* CustomerListViewController.swift */; };
+		1066DC37230B3C59008DB4F2 /* DexLinkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1066DC35230B3C59008DB4F2 /* DexLinkModel.xcdatamodeld */; };
+		B669764BE526EF3164B8007D /* Pods_DexLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E90B581667F62426D82E963 /* Pods_DexLink.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		105B8A0622F71A0C008EEC53 /* DexLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DexLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B8A0922F71A0C008EEC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		105B8A0B22F71A0C008EEC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105B8A0E22F71A0C008EEC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		105B8A1022F71A0F008EEC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105B8A1322F71A0F008EEC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		105B8A1522F71A0F008EEC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10601A5422FF075500AC7BC0 /* CustomerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewController.swift; sourceTree = "<group>"; };
+		1066DC36230B3C59008DB4F2 /* DexLinkModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DexLinkModel.xcdatamodel; sourceTree = "<group>"; };
+		254F1105BEC9392003FE9DA5 /* Pods-DexLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DexLink.release.xcconfig"; path = "Target Support Files/Pods-DexLink/Pods-DexLink.release.xcconfig"; sourceTree = "<group>"; };
+		8E90B581667F62426D82E963 /* Pods_DexLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DexLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A51C94F3117513A5E46273 /* Pods-DexLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DexLink.debug.xcconfig"; path = "Target Support Files/Pods-DexLink/Pods-DexLink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105B8A0322F71A0C008EEC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B669764BE526EF3164B8007D /* Pods_DexLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105B89FD22F71A0C008EEC53 = {
+			isa = PBXGroup;
+			children = (
+				105B8A0822F71A0C008EEC53 /* DexLink */,
+				105B8A0722F71A0C008EEC53 /* Products */,
+				5A90A60C380F93BEAC527F79 /* Pods */,
+				EAC16FBBBAF114BE4F4F38B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		105B8A0722F71A0C008EEC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105B8A0622F71A0C008EEC53 /* DexLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105B8A0822F71A0C008EEC53 /* DexLink */ = {
+			isa = PBXGroup;
+			children = (
+				105B8A0922F71A0C008EEC53 /* AppDelegate.swift */,
+				105B8A0B22F71A0C008EEC53 /* ViewController.swift */,
+				10601A5422FF075500AC7BC0 /* CustomerListViewController.swift */,
+				105B8A0D22F71A0C008EEC53 /* Main.storyboard */,
+				1066DC35230B3C59008DB4F2 /* DexLinkModel.xcdatamodeld */,
+				105B8A1022F71A0F008EEC53 /* Assets.xcassets */,
+				105B8A1222F71A0F008EEC53 /* LaunchScreen.storyboard */,
+				105B8A1522F71A0F008EEC53 /* Info.plist */,
+			);
+			path = DexLink;
+			sourceTree = "<group>";
+		};
+		5A90A60C380F93BEAC527F79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A51C94F3117513A5E46273 /* Pods-DexLink.debug.xcconfig */,
+				254F1105BEC9392003FE9DA5 /* Pods-DexLink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAC16FBBBAF114BE4F4F38B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E90B581667F62426D82E963 /* Pods_DexLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105B8A0522F71A0C008EEC53 /* DexLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B8A1822F71A0F008EEC53 /* Build configuration list for PBXNativeTarget "DexLink" */;
+			buildPhases = (
+				4FFF96310B274DCE124FD5A8 /* [CP] Check Pods Manifest.lock */,
+				105B8A0222F71A0C008EEC53 /* Sources */,
+				105B8A0322F71A0C008EEC53 /* Frameworks */,
+				105B8A0422F71A0C008EEC53 /* Resources */,
+				48B278FF9AFCA9871373AC10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DexLink;
+			productName = DexLink;
+			productReference = 105B8A0622F71A0C008EEC53 /* DexLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105B89FE22F71A0C008EEC53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Atomos;
+				TargetAttributes = {
+					105B8A0522F71A0C008EEC53 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 105B8A0122F71A0C008EEC53 /* Build configuration list for PBXProject "DexLink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105B89FD22F71A0C008EEC53;
+			productRefGroup = 105B8A0722F71A0C008EEC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105B8A0522F71A0C008EEC53 /* DexLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105B8A0422F71A0C008EEC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B8A1422F71A0F008EEC53 /* LaunchScreen.storyboard in Resources */,
+				105B8A1122F71A0F008EEC53 /* Assets.xcassets in Resources */,
+				105B8A0F22F71A0C008EEC53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B278FF9AFCA9871373AC10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DexLink/Pods-DexLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DexLink/Pods-DexLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DexLink/Pods-DexLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFF96310B274DCE124FD5A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DexLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105B8A0222F71A0C008EEC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B8A0C22F71A0C008EEC53 /* ViewController.swift in Sources */,
+				1066DC37230B3C59008DB4F2 /* DexLinkModel.xcdatamodeld in Sources */,
+				10601A5522FF075500AC7BC0 /* CustomerListViewController.swift in Sources */,
+				105B8A0A22F71A0C008EEC53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		105B8A0D22F71A0C008EEC53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B8A0E22F71A0C008EEC53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		105B8A1222F71A0F008EEC53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B8A1322F71A0F008EEC53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		105B8A1622F71A0F008EEC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		105B8A1722F71A0F008EEC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105B8A1922F71A0F008EEC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A51C94F3117513A5E46273 /* Pods-DexLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HMV3P7565;
+				INFOPLIST_FILE = DexLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sabathRod.DexLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105B8A1A22F71A0F008EEC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254F1105BEC9392003FE9DA5 /* Pods-DexLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HMV3P7565;
+				INFOPLIST_FILE = DexLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sabathRod.DexLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105B8A0122F71A0C008EEC53 /* Build configuration list for PBXProject "DexLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B8A1622F71A0F008EEC53 /* Debug */,
+				105B8A1722F71A0F008EEC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105B8A1822F71A0F008EEC53 /* Build configuration list for PBXNativeTarget "DexLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B8A1922F71A0F008EEC53 /* Debug */,
+				105B8A1A22F71A0F008EEC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1066DC35230B3C59008DB4F2 /* DexLinkModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1066DC36230B3C59008DB4F2 /* DexLinkModel.xcdatamodel */,
+			);
+			currentVersion = 1066DC36230B3C59008DB4F2 /* DexLinkModel.xcdatamodel */;
+			path = DexLinkModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 105B89FE22F71A0C008EEC53 /* Project object */;
+}
